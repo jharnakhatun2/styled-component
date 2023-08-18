@@ -4,8 +4,7 @@ import {
   DisplayContainer,
   TextContainer,
 } from "../../assets/style/Container.style";
-import { Button, H1 } from "../../assets/style/Element.style";
-import "remixicon/fonts/remixicon.css";
+import { Button, H1, Image, SVG } from "../../assets/style/Element.style";
 
 export default function Card() {
   return (
@@ -15,12 +14,12 @@ export default function Card() {
           <H1>Beautiful and Cute Rabbit for any device</H1>
           <ButtonContainer>
             <Button>Start designing</Button>
-            <div>
-              <i className="ri-arrow-right-line"></i>
-            </div>
+            <SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+            </SVG>
           </ButtonContainer>
         </TextContainer>
-        <img src="/src/assets/images/1.PNG" alt="image" />
+        <Image src="/src/assets/images/1.PNG" alt="image" />
       </DisplayContainer>
     </Container>
   );
