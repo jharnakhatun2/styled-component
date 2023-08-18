@@ -1,10 +1,11 @@
 import { GlobalStyle } from "./assets/style/Global.style";
+import Card from "./component/Card/Card";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>This is app component</h1>
+      <Card />
     </>
   );
 }
